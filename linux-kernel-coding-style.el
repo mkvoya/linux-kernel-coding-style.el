@@ -30,7 +30,7 @@
 ;;; Code:
 
 (eval-when-compile (require 'cl))
-(require 'cc)
+(require 'cc-mode)
 
 (defun linux-kernel-coding-style/c-lineup-arglist-tabs-only (ignored)
   "Line up argument lists by tabs, not spaces"
